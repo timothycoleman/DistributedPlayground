@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistributedPlayground.Algorithms", "DistributedPlayground.Algorithms\DistributedPlayground.Algorithms.csproj", "{745F1C2D-73AC-405E-B4FC-E72FAC2CB502}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistributedPlayground.Algorithms.Tests", "DistributedPlayground.Algorithms.Tests\DistributedPlayground.Algorithms.Tests.csproj", "{A74F4B7C-50A4-46C9-A39C-CA1580E46AE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A314202-E527-491E-A8AC-A1F3715D7438}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistributedPlayground.Infrastructure", "DistributedPlayground.Infrastructure\DistributedPlayground.Infrastructure.csproj", "{B5749128-3D01-457F-B25D-1A00E36AA599}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistributedPlayground.Infrastructure.Tests", "DistributedPlayground.Infrastructure.Tests\DistributedPlayground.Infrastructure.Tests.csproj", "{A84FE8BC-1084-4B73-8B2C-93141558E00D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{745F1C2D-73AC-405E-B4FC-E72FAC2CB502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745F1C2D-73AC-405E-B4FC-E72FAC2CB502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745F1C2D-73AC-405E-B4FC-E72FAC2CB502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745F1C2D-73AC-405E-B4FC-E72FAC2CB502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A74F4B7C-50A4-46C9-A39C-CA1580E46AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74F4B7C-50A4-46C9-A39C-CA1580E46AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74F4B7C-50A4-46C9-A39C-CA1580E46AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74F4B7C-50A4-46C9-A39C-CA1580E46AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5749128-3D01-457F-B25D-1A00E36AA599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5749128-3D01-457F-B25D-1A00E36AA599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5749128-3D01-457F-B25D-1A00E36AA599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5749128-3D01-457F-B25D-1A00E36AA599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84FE8BC-1084-4B73-8B2C-93141558E00D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84FE8BC-1084-4B73-8B2C-93141558E00D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84FE8BC-1084-4B73-8B2C-93141558E00D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84FE8BC-1084-4B73-8B2C-93141558E00D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F3DA369-BDAE-4F53-9FF9-2D7689DF588D}
+	EndGlobalSection
+EndGlobal
